@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furr/Cooksey LLC</title>
+    <style>
+      /* Basic reset for body margin and padding */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh; /* view height */
+        display: flex;
+        justify-content: center; /* center items horizontally */
+        align-items: center; /* center items vertically */
+        /* background-color: #f4f4f4; */
+
+        /* Radial gradient for the spotlight effect */
+        background: radial-gradient(circle at center, #f4f4f4, #d0d0d0);
+      }
+
+      img {
+        width: 100%; /* to ensure the image doesn't overflow the viewport */
+        max-width: 250px;
+        height: auto;
+      }
+
+      .content {
+        text-align: center; /* center text and image */
+      }
+
+      .btn {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: #ff5715;
+        color: #fff;
+        transition: background-color 0.3s, transform 0.3s;
+      }
+
+      .btn:hover {
+        background-color: #ff5715;
+        transform: scale(1.05); /* button will slightly enlarge when hovered */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="content">
+      <img src="fc-logo.png" alt="Logo" />
+      <!-- <h1>Furr/Cooksey LLC</h1> -->
+      <p style="width: 500px; line-height: 1.5rem; margin-top: 0">
+        A group of real estate and technology professionals building products
+        for the commercial real estate and financial services sectors.
+      </p>
+      <a href="https://nalu.ai" target="_blank" class="btn">Nalu</a>
+      <a href="https://crebrid.com" target="_blank" class="btn">Crebrid</a>
+    </div>
+  </body>
+</html>
